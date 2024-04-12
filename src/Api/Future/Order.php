@@ -14,7 +14,7 @@ class Order extends Request
      * */
     public function post(array $data=[]){
         $this->type='POST';
-        $this->path='/api/v4/futures/orders';
+        $this->path='/api/v4/futures/'.$data['settle'].'/orders';
         $this->data=$data;
         return $this->exec();
     }
