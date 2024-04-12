@@ -1,5 +1,5 @@
 {
-    "name": "linwj/gate",
+    "name": "clashshot/gate-php",
     "type": "library",
     "description": "Gate API Like the official document interface, Support for arbitrary extension.",
     "license": "MIT",
